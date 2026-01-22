@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+<header>
+    <h1>National Parks Gallery</h1>
+    <p>
+        This page demonstrates the use of CSS Grid to create a clean,
+        structured two-column layout for visual content.
+    </p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Parks</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main id="main-content">
+    <p>
+        CSS Grid is used on this page to organize images in a consistent and
+        visually balanced layout. Grid properties allow content to be aligned
+        while maintaining flexibility across different screen sizes.
+    </p>
+
+    <p>
+        Descendant selectors are applied so that only images within the grid
+        are affected by specific styling rules, ensuring that other layouts
+        such as Flexbox sections remain unaffected.
+    </p>
+
+    <section class="grid">
+        <img src="https://picsum.photos/400/300?5" alt="Park trail">
+        <img src="https://picsum.photos/400/300?6" alt="River through park">
+        <img src="https://picsum.photos/400/300?7" alt="Camping site">
+        <img src="https://picsum.photos/400/300?8" alt="Wildlife habitat">
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Advanced CSS Accessibility and Layout Project</p>
+</footer>
+
+</body>
+</html>
